@@ -19,6 +19,7 @@ document.getElementById("regBtn").addEventListener("click", function () {
     } else {
         showAlertError();
     }
+    })
 
 
 
