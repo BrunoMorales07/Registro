@@ -7,8 +7,6 @@ function showAlertError() {
 }
 
 document.getElementById("regBtn").addEventListener("click", function () {
-    const password1 = document.getElementById("password1").value;
-    const password2 = document.getElementById("password2").value;
     let nombre = document.getElementById("nombre").value.trim();
     let apellido = document.getElementById("apellido").value.trim();
     let email = document.getElementById("email").value.trim();
@@ -21,4 +19,5 @@ document.getElementById("regBtn").addEventListener("click", function () {
     } else {
         showAlertError();
     }
+
 
